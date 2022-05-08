@@ -1,0 +1,12 @@
+name: "cheetah-config-creator"
+version: "0.1.0"
+description: "Создание ConfigMap из директории с конфигурацией"
+ignoreFlags: false
+command: "$HELM_BIN"
+platformCommand:
+  - os: linux
+    arch: i386
+    command: "$HELM_BIN list --short --max 1 --date -r"
+  - os: linux
+    arch: amd64
+    command: "$HELM_BIN list --short --max 1 --date -r"

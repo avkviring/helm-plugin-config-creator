@@ -1,0 +1,9 @@
+name: "cheetah-config-creator"
+version: "0.1.0"
+description: "Создание ConfigMap из директории с конфигурацией"
+ignoreFlags: false
+platformCommand:
+  - os: linux
+    command: cheetah-config-creator-linux
+  - os: darwin
+    command: cheetah-config-creator-macos

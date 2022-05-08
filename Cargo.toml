@@ -1,11 +1,11 @@
 [package]
-name = "hosting-configurator"
+name = "cheetah-config-creator"
 version = "0.0.0"
 edition = "2021"
 description = "Утилита для создания ConfigMap из каталога с конфигурацией"
 
 [[bin]]
-name = "cheetah-hosting-configurator"
+name = "cheetah-config-creator"
 path = "src/bin/configurator.rs"
 
 

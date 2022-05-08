@@ -4,6 +4,6 @@ description: "Создание ConfigMap из директории с конфи
 ignoreFlags: false
 platformCommand:
   - os: linux
-    command: cheetah-config-creator-linux
+    command: ./cheetah-config-creator-linux
   - os: darwin
-    command: cheetah-config-creator-macos
+    command: ./cheetah-config-creator-macos
